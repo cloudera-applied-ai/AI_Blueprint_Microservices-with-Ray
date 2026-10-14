@@ -1,9 +1,9 @@
 # Cloudera Blueprint: Microservices with Ray
 
+[![Author-Qishuai Zhong](https://img.shields.io/badge/Author-Qishuai%20Zhong-555555)](https://github.com/FerdinandZhong)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](pyproject.toml)
 [![Cloudera Blueprint](https://img.shields.io/badge/Cloudera-Blueprint-f96702.svg)](METADATA.yaml)
-[![Author-Qishuai Zhong](https://img.shields.io/badge/Author-Qishuai%20Zhong-555555)]()
 [![Docs](https://img.shields.io/badge/docs-mkdocs-blue)](https://cloudera-applied-ai.github.io/AI_Blueprint_Microservices-with-Ray/)
 [![Ray](https://img.shields.io/badge/ray-2.53.0%2B-green.svg)](https://docs.ray.io/)
 [![Stars](https://img.shields.io/github/stars/cloudera-applied-ai/AI_Blueprint_Microservices-with-Ray?logo=github&cacheSeconds=300)](https://github.com/cloudera-applied-ai/AI_Blueprint_Microservices-with-Ray/stargazers)
