@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](pyproject.toml)
 [![Cloudera Blueprint](https://img.shields.io/badge/Cloudera-Blueprint-f96702.svg)](METADATA.yaml)
+[![Docs](https://img.shields.io/badge/docs-mkdocs-blue)](https://cloudera-applied-ai.github.io/AI_Blueprint_Microservices-with-Ray/)
 [![Ray](https://img.shields.io/badge/ray-2.53.0%2B-green.svg)](https://docs.ray.io/)
 [![Stars](https://img.shields.io/github/stars/cloudera-applied-ai/AI_Blueprint_Microservices-with-Ray?logo=github&cacheSeconds=300)](https://github.com/cloudera-applied-ai/AI_Blueprint_Microservices-with-Ray/stargazers)
 [![Forks](https://img.shields.io/github/forks/cloudera-applied-ai/AI_Blueprint_Microservices-with-Ray?logo=github&cacheSeconds=300)](https://github.com/cloudera-applied-ai/AI_Blueprint_Microservices-with-Ray/network/members)
@@ -795,6 +796,7 @@ the `launch_ray_cluster` job) and confirm all workers report alive in
 
 ## Documentation
 
+- **Site:** [cloudera-applied-ai.github.io/AI_Blueprint_Microservices-with-Ray](https://cloudera-applied-ai.github.io/AI_Blueprint_Microservices-with-Ray/) (Knowledge Graph dashboard on GitHub Pages; enable **Settings → Pages → GitHub Actions** once — see [docs/GITHUB_PAGES.md](docs/GITHUB_PAGES.md))
 - [Architecture](docs/ARCHITECTURE.md) — components and data flow
 - [Installation](docs/INSTALLATION.md)
 - [Quickstart](docs/QUICKSTART.md)
