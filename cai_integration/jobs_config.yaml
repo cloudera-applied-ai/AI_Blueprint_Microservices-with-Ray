@@ -1,0 +1,66 @@
+# Ray Cluster Deployment Jobs Configuration
+#
+# Job chain:
+#   git_sync
+#     → setup_base_env       create /home/cdsw/.venv  (ray + core deps, NO inference engines)
+#       → setup_vllm_env     create /home/cdsw/.venv-vllm  (vllm + ninja)
+#         → setup_litellm_env create /home/cdsw/.venv-litellm  (litellm)
+#           → launch_ray_cluster
+#
+# Inference engines are isolated so vLLM and LiteLLM (which conflict on
+# llguidance) never share a single Python environment.
+
+jobs:
+  git_sync:
+    name: "Git Repository Sync"
+    script: ".git_sync.py"
+    parent_job_key: null
+    timeout: 300       # git fetch + reset; should finish in < 2 min
+    cpu: 1
+    memory: 4
+    description: "Pull latest code from GitHub into the CML project"
+
+  setup_base_env:
+    name: "Setup Base Environment"
+    script: "cai_integration/setup_environment.py"
+    parent_job_key: "git_sync"
+    timeout: 1800      # 30 min: uv venv + Ray + SSL-capable nginx/OpenSSL build
+    cpu: 4
+    memory: 16
+    description: "Create /home/cdsw/.venv with Ray and core deps (no inference engines)"
+
+  setup_vllm_env:
+    name: "Setup vLLM Environment"
+    script: "cai_integration/setup_vllm_env.py"
+    parent_job_key: "setup_base_env"
+    timeout: 1800      # 30 min: vllm wheel can be large; GPU-optimised build may compile
+    cpu: 4
+    memory: 16
+    description: "Create /home/cdsw/.venv-vllm with vllm + ninja"
+
+  setup_litellm_env:
+    name: "Setup LiteLLM Environment"
+    script: "cai_integration/setup_litellm_env.py"
+    parent_job_key: "setup_vllm_env"
+    timeout: 600       # 10 min: litellm is pure Python, installs quickly
+    cpu: 2
+    memory: 8
+    description: "Create /home/cdsw/.venv-litellm with litellm"
+
+  launch_ray_cluster:
+    name: "Launch Ray Cluster"
+    script: "cai_integration/launch_ray_cluster_job.py"
+    parent_job_key: "setup_litellm_env"
+    timeout: 1200      # start_cluster(600s) + management API health-check(300s) + buffer
+    cpu: 2
+    memory: 8
+    description: "Start Ray cluster with configured head and worker nodes"
+
+  launch_monitoring:
+    name: "Launch Monitoring Dashboards"
+    script: "cai_integration/launch_monitoring_job.py"
+    parent_job_key: "launch_ray_cluster"
+    timeout: 900       # create 2 CML apps + health-poll (2×300s) + Ray dashboard provisioning
+    cpu: 2
+    memory: 8
+    description: "Create Prometheus + Grafana CML apps and provision Ray dashboards"

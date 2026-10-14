@@ -1,0 +1,1789 @@
+================================================================================
+================================================================================
+
+             Third-Party Software for Microservices with Ray
+
+--------------------------------------------------------------------------------
+
+The product or component covered by this notice file is subject to copyright owned by Cloudera, the Apache Software Foundation or other third parties, as applicable, and the copyright owner reserves all rights.
+
+The following notices and licenses apply to various third party software packages, including open source software packages, which are distributed with the product identified in this file or accompanying this file.  Such product (i) may not include all of the referenced third party software packages or include only a portion of a given package and (ii) may also include other components, which may contain additional third party software packages as identified in their separate respective notice files.
+
+To the extent required by the license associated with a third party software package, Cloudera, Inc. will provide a copy of the third party software package’s source code upon request and at a reasonable fee.  All requests for source code must be made in writing and mailed to "Cloudera, Inc., ATTN: Legal Dept.,5470 Great America Pkwy, Santa Clara, CA 95054" and include the following information: (i) the name and version number of the covered binary, (ii) name and the version number of the Cloudera product containing the covered binary, (iii) your name, (iv) your company or organization name (if applicable), (v) the license under which you are requesting the source code to be provided, and (vi) your return mailing and email address (if available).
+
+The following 3rd-party software packages may be used by or distributed with ray-serve-cai (RELENG-37858). Any information relevant to third-party vendors listed below are collected using common, reasonable means.
+
+Date generated: 2026-10-7
+
+Revision ID: c9161f821b28aef6c4c62aacc97d1cc1fd0e8fc5
+
+================================================================================
+================================================================================
+
+
+
+================================================================================
+
+                                  Dependencies
+
+================================================================================
+
+- aiohttp (3.13.3) [Apache-2.0, MIT]
+- fastapi (0.133.0) [MIT, Apache-2.0]
+- httpx (0.27.0) [BSD-3-Clause]
+- Jinja2 (3.1.0) [BSD-3-Clause]
+- protobuf (5.29.6) [Protobuf, BSD-3-Clause, MIT]
+- pydantic (2.0.0) [MIT]
+- PyYAML (6.0.3) [MIT]
+- ray (2.53.0) [Apache-2.0, MPL-1.1, LGPL-2.1-only, LGPL-3.0-only, MIT, BSD-2-Clause, BSD-3-Clause, Python-2.0, 0BSD, GPL-2.0-with-classpath-exception, CDDL-1.0, CDDL-1.1, MPL-2.0]
+- starlette (0.36.0) [BSD-3-Clause]
+- uvicorn (0.27.0) [BSD-3-Clause]
+
+--------------------------------------------------------------------------------
+Package Title: aiohttp (3.13.3)
+
+Package Locator: pip+aiohttp$3.13.3
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Async http client/server framework (asyncio)
+
+* Declared Licenses *
+Apache-2.0, MIT
+
+* Apache-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE.txt
+  - Copyright (c)  aio-libs contributors.
+- tests/sample.txt
+--------------------------------------------------------------------------------
+
+* MIT *
+--------------------------------------------------------------------------------
+File matches:
+- vendor/llhttp/LICENSE
+  - Copyright (c)  Fedor Indutny, 2018.
+- vendor/llhttp/package.json
+- vendor/llhttp/README.md
+  - Copyright (c)  Fedor Indutny, 2018.
+--------------------------------------------------------------------------------
+
+* Copyrights *
+Apache-2.0
+- Copyright (c)  aio-libs contributors.
+MIT
+- Copyright (c)  Fedor Indutny, 2018.
+
+* Package Info *
+
+Authors: fafhrd91@gmail.com
+Package Manager: Pip
+Project URL: https://pypi.org/project/aiohttp/
+Package Download URL: https://files.pythonhosted.org/packages/50/42/32cf8e7704ceb4481406eb87161349abb46a57fee3f008ba9cb610968646/aiohttp-3.13.3.tar.gz
+Dependency Path: aiohttp
+
+--------------------------------------------------------------------------------
+Package Title: fastapi (0.133.0)
+
+Package Locator: pip+fastapi$0.133.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2018 Sebastián Ramírez
+--------------------------------------------------------------------------------
+
+* Other Licenses *
+Apache-2.0
+--------------------------------------------------------------------------------
+File matches:
+- fastapi/applications.py
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c) 2018 Sebastián Ramírez
+
+* Package Info *
+
+Authors: Sebastián Ramírez <tiangolo@gmail.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/fastapi/
+Package Download URL: https://files.pythonhosted.org/packages/c2/04/ab382c7c03dd545f2c964d06e87ad0d5faa944a2434186ad9c285f5d87e0/fastapi-0.133.0.tar.gz
+Dependency Path: fastapi
+
+--------------------------------------------------------------------------------
+Package Title: httpx (0.27.0)
+
+Package Locator: pip+httpx$0.27.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+The next generation HTTP client.
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE.md
+  - Copyright (c) 2019 Encode OSS Ltd](https://www.encode.io/).
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2019 Encode OSS Ltd](https://www.encode.io/).
+
+* Package Info *
+
+Authors: Tom Christie <tom@tomchristie.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/httpx/
+Package Download URL: https://files.pythonhosted.org/packages/5c/2d/3da5bdf4408b8b2800061c339f240c1802f2e82d55e50bd39c5a881f47f0/httpx-0.27.0.tar.gz
+Dependency Path: httpx
+
+--------------------------------------------------------------------------------
+Package Title: Jinja2 (3.1.0)
+
+Package Locator: pip+jinja2$3.1.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+A very fast and expressive template engine.
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE.rst
+  - Copyright (c) 2007 Pallets
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2007 Pallets
+
+* Package Info *
+
+Package Manager: Pip
+Project URL: https://pypi.org/project/Jinja2/
+Package Download URL: https://files.pythonhosted.org/packages/1f/93/99a76d0fa1a8fc14442a6421abee323f8d15964979336eabd2a1834e9118/Jinja2-3.1.0.tar.gz
+Dependency Path: jinja2
+
+--------------------------------------------------------------------------------
+Package Title: protobuf (5.29.6)
+
+Package Locator: pip+protobuf$5.29.6
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Protocol Buffers are Google's data interchange format
+
+
+
+
+* Declared Licenses *
+Protobuf, BSD-3-Clause
+
+* Protobuf *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+--------------------------------------------------------------------------------
+
+* BSD-3-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- google/protobuf/__init__.py
+  - Copyright (c) 2007 Google Inc. All Rights Reserved.
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/any.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/descriptor_database.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/descriptor_pool.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/duration.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/__init__.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/_parameterized.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/api_implementation.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/builder.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/containers.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/decoder.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/enum_type_wrapper.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/extension_dict.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/field_mask.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/message_listener.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/python_message.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/testing_refleaks.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/type_checkers.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/well_known_types.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/internal/wire_format.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/json_format.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/message_factory.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/message.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/proto_builder.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/proto_json.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/proto.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/pyext/cpp_message.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/reflection.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/runtime_version.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/service.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/symbol_database.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/text_encoding.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/text_format.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/timestamp.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- google/protobuf/unknown_fields.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- python/convert.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/convert.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/descriptor_containers.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/descriptor_containers.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/descriptor_pool.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/descriptor_pool.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/descriptor.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/descriptor.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/extension_dict.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/extension_dict.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/map.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/map.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/message.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/message.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/protobuf.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/protobuf.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/python_api.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/repeated.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/repeated.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/unknown_fields.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- python/unknown_fields.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- setup.py
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- upb/base/descriptor_constants.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/base/internal/endian.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/base/internal/log2.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/base/status.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/base/status.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/base/string_view.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/base/upcast.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/generated_code_support.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/hash/common.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/hash/common.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/hash/int_table.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/hash/str_table.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/atoi.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/atoi.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/round_trip.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/round_trip.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/strtod.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/strtod.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/unicode.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/lex/unicode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mem/alloc.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mem/alloc.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mem/arena.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mem/arena.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mem/internal/arena.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/accessors_split64.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/accessors.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/accessors.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/array.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/array.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/compare.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/compare.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/compat.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/compat.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/copy.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/copy.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/accessors.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/array.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/compare_unknown.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/compare_unknown.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/extension.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/extension.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/iterator.c
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/message/internal/iterator.h
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/message/internal/map_entry.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/map_sorter.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/map.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/message.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/message.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/tagged_ptr.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/internal/types.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/map_gencode_util.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/map_sorter.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/map.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/map.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/message.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/message.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/promote.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/promote.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/tagged_ptr.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/message/value.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/build_enum.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/build_enum.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/decode.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/decode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/base92.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/base92.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/decoder.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/encode.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/encode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/modifiers.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/internal/wire_constants.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/link.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_descriptor/link.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/compat.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/compat.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/enum.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/extension_registry.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/extension_registry.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/extension.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/field.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/file.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/enum.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/extension.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/field.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/file.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/message.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/message.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/size_log2.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/internal/sub.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/message.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/message.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/mini_table/sub.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/port/atomic.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/port/def.inc
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/port/undef.inc
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/port/vsnprintf_compat.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/common.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/def_pool.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/def_pool.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/def_type.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/def_type.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/desc_state.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/enum_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/enum_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/enum_reserved_range.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/enum_reserved_range.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/enum_value_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/enum_value_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/extension_range.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/extension_range.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/field_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/field_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/file_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/file_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/def_builder.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/def_builder.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/def_pool.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/desc_state.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/enum_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/enum_reserved_range.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/enum_value_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/extension_range.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/field_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/file_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/message_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/message_reserved_range.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/method_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/oneof_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/service_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/strdup2.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/strdup2.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/internal/upb_edition_defaults.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/message_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/message_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/message_reserved_range.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/message_reserved_range.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/message.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/message.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/method_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/method_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/oneof_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/oneof_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/service_def.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/reflection/service_def.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/text/debug_string.c
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/text/debug_string.h
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/text/encode.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/text/encode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/text/internal/encode.c
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/text/internal/encode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/text/options.h
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/util/def_to_proto.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/util/def_to_proto.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/util/required_fields.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/util/required_fields.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/byte_size.c
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/wire/byte_size.h
+  - Copyright (c) 2024 Google LLC.  All rights reserved.
+- upb/wire/decode.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/decode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/encode.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/encode.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/eps_copy_input_stream.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/eps_copy_input_stream.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/internal/constants.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/internal/decode_fast.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/internal/decode_fast.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/internal/decoder.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/internal/reader.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/reader.c
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/reader.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+- upb/wire/types.h
+  - Copyright (c) 2023 Google LLC.  All rights reserved.
+--------------------------------------------------------------------------------
+
+* Other Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- utf8_range/utf8_range.c
+  - Copyright (c) 2023 Google LLC
+--------------------------------------------------------------------------------
+
+* Copyrights *
+Protobuf
+- Copyright (c) 2008 Google Inc.  All rights reserved.
+BSD-3-Clause
+- Copyright (c) 2008 Google Inc.  All rights reserved.
+- Copyright (c) 2023 Google LLC.  All rights reserved.
+- Copyright (c) 2024 Google LLC.  All rights reserved.
+- Copyright (c) 2007 Google Inc. All Rights Reserved.
+MIT
+- Copyright (c) 2023 Google LLC
+
+* Package Info *
+
+Authors: protobuf@googlegroups.com
+Package Manager: Pip
+Project URL: https://developers.google.com/protocol-buffers/
+Package Download URL: https://files.pythonhosted.org/packages/7e/57/394a763c103e0edf87f0938dafcd918d53b4c011dfc5c8ae80f3b0452dbb/protobuf-5.29.6.tar.gz
+Dependency Path: protobuf
+
+--------------------------------------------------------------------------------
+Package Title: pydantic (2.0.0)
+
+Package Locator: pip+pydantic$2.0.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Data validation using Python type hints
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2017 to present Pydantic Services Inc. and individual contributors.
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c) 2017 to present Pydantic Services Inc. and individual contributors.
+
+* Package Info *
+
+Authors: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
+Package Manager: Pip
+Project URL: https://pypi.org/project/pydantic/
+Package Download URL: https://files.pythonhosted.org/packages/2a/63/f2b665b22a5c2717752cd960d4f55272903b900aa6bf271d2c0a40548e29/pydantic-2.0.tar.gz
+Dependency Path: pydantic
+
+--------------------------------------------------------------------------------
+Package Title: PyYAML (6.0.3)
+
+Package Locator: pip+pyyaml$6.0.3
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+YAML parser and emitter for Python
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2006-2016 Kirill Simonov
+  - Copyright (c) 2017-2021 Ingy döt Net
+- setup.py
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c) 2017-2021 Ingy döt Net
+- Copyright (c) 2006-2016 Kirill Simonov
+
+* Package Info *
+
+Authors: xi@resolvent.net
+Package Manager: Pip
+Project URL: https://pyyaml.org/
+Package Download URL: https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz
+Dependency Path: pyyaml
+
+--------------------------------------------------------------------------------
+Package Title: ray (2.53.0)
+
+Package Locator: pip+ray$2.53.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Ray provides a simple, universal API for building distributed applications.
+
+* Declared Licenses *
+Apache-2.0
+--------------------------------------------------------------------------------
+File matches:
+- ray/_private/async_utils.py
+- ray/_private/runtime_env/agent/thirdparty_files/aiohttp-3.13.2.dist-info/licenses/LICENSE.txt
+- ray/_private/runtime_env/agent/thirdparty_files/aiosignal-1.4.0.dist-info/licenses/LICENSE
+- ray/_private/runtime_env/agent/thirdparty_files/async_timeout-5.0.1.dist-info/LICENSE
+- ray/_private/runtime_env/agent/thirdparty_files/frozenlist-1.8.0.dist-info/licenses/LICENSE
+- ray/_private/runtime_env/agent/thirdparty_files/multidict-6.7.0.dist-info/licenses/LICENSE
+- ray/_private/runtime_env/agent/thirdparty_files/propcache-0.4.1.dist-info/licenses/LICENSE
+- ray/_private/runtime_env/agent/thirdparty_files/propcache-0.4.1.dist-info/licenses/NOTICE
+- ray/_private/runtime_env/agent/thirdparty_files/yarl-1.22.0.dist-info/licenses/LICENSE
+- ray/_private/runtime_env/agent/thirdparty_files/yarl-1.22.0.dist-info/licenses/NOTICE
+- ray/air/util/tensor_extensions/pandas.py
+- ray/data/_internal/datasource/webdataset_datasource.py
+  - Copyright (c)  NVIDIA Corporation 2023
+- ray/jars/ASL-2.0.txt
+- ray/jars/com/github/fge/jackson/jsonNodeReader.properties
+- ray/jars/com/github/fge/jackson/jsonpointer.properties
+- ray/jars/com/github/fge/jsonschema/core/core.properties
+- ray/jars/com/github/fge/jsonschema/core/syntax.properties
+- ray/jars/com/github/fge/jsonschema/validator/configuration.properties
+- ray/jars/com/github/fge/jsonschema/validator/validation.properties
+- ray/jars/com/github/fge/uritemplate/messages.properties
+- ray/jars/Log4j-charsets.properties
+- ray/jars/Log4j-config.xsd
+- ray/jars/Log4j-events.dtd
+- ray/jars/Log4j-events.xsd
+- ray/jars/Log4j-levels.xsd
+- ray/jars/META-INF/AL2.0
+- ray/jars/META-INF/ASL-2.0.txt
+- ray/jars/META-INF/FastDoubleParser-LICENSE
+- ray/jars/META-INF/LICENSE
+- ray/jars/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+- ray/jars/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+- ray/jars/META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml
+- ray/jars/META-INF/maven/com.google.code.findbugs/jsr305/pom.xml
+- ray/jars/META-INF/maven/com.google.code.gson/gson/pom.xml
+- ray/jars/META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml
+- ray/jars/META-INF/maven/com.google.j2objc/j2objc-annotations/pom.xml
+- ray/jars/META-INF/maven/commons-io/commons-io/pom.xml
+- ray/jars/META-INF/maven/de.ruedigermoeller/fst/pom.xml
+- ray/jars/META-INF/maven/joda-time/joda-time/pom.xml
+- ray/jars/META-INF/maven/org.apache.commons/commons-lang3/pom.xml
+- ray/jars/META-INF/maven/org.apache.httpcomponents.core5/httpcore5/pom.xml
+- ray/jars/META-INF/maven/org.apache.logging.log4j/log4j-api/pom.xml
+- ray/jars/META-INF/maven/org.apache.logging.log4j/log4j-core/pom.xml
+- ray/jars/META-INF/maven/org.apache.logging.log4j/log4j-slf4j-impl/pom.xml
+- ray/jars/META-INF/maven/org.javassist/javassist/pom.xml
+- ray/jars/META-INF/NOTICE.txt
+- ray/jars/META-INF/services/javax.annotation.processing.Processor
+- ray/jars/META-INF/services/org.apache.logging.log4j.util.PropertySource
+- ray/jars/org/apache/hc/core5/version.properties
+- ray/rllib/algorithms/impala/vtrace_tf.py
+- ray/rllib/algorithms/impala/vtrace_torch.py
+--------------------------------------------------------------------------------
+
+* Other Licenses *
+MPL-1.1, LGPL-2.1-only, LGPL-3.0-only, MIT, BSD-2-Clause, BSD-3-Clause, Python-2.0, 0BSD, GPL-2.0-with-classpath-exception, CDDL-1.0, CDDL-1.1, MPL-2.0
+
+* MPL-1.1 *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/META-INF/maven/org.javassist/javassist/pom.xml
+--------------------------------------------------------------------------------
+
+* LGPL-2.1-only *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/META-INF/LGPL2.1
+  - Copyright (c)  the
+  - Copyright (c) 1991, 1999 Free Software Foundation, Inc.
+- ray/jars/META-INF/maven/org.javassist/javassist/pom.xml
+--------------------------------------------------------------------------------
+
+* LGPL-3.0-only *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/com/github/fge/jackson/jsonNodeReader.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/com/github/fge/jackson/jsonpointer.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/com/github/fge/jsonschema/core/core.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/com/github/fge/jsonschema/core/syntax.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/com/github/fge/jsonschema/validator/configuration.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/com/github/fge/jsonschema/validator/validation.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/com/github/fge/uritemplate/messages.properties
+  - Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+- ray/jars/LGPL-3.0.txt
+  - Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+- ray/jars/META-INF/LGPL-3.0.txt
+  - Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+--------------------------------------------------------------------------------
+
+* MIT *
+--------------------------------------------------------------------------------
+File matches:
+- ray/_private/runtime_env/agent/thirdparty_files/aiohttp-3.13.2.dist-info/licenses/vendor/llhttp/LICENSE
+  - Copyright (c)  Fedor Indutny, 2018.
+- ray/_private/runtime_env/agent/thirdparty_files/attr/__init__.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_cmp.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_compat.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_config.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_funcs.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_make.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_next_gen.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/_version_info.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/converters.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/exceptions.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/filters.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/setters.py
+- ray/_private/runtime_env/agent/thirdparty_files/attr/validators.py
+- ray/_private/runtime_env/agent/thirdparty_files/attrs-25.4.0.dist-info/licenses/LICENSE
+  - Copyright (c) 2015 Hynek Schlawack and the attrs contributors
+- ray/_private/runtime_env/agent/thirdparty_files/attrs/__init__.py
+- ray/_private/runtime_env/agent/thirdparty_files/attrs/converters.py
+- ray/_private/runtime_env/agent/thirdparty_files/attrs/exceptions.py
+- ray/_private/runtime_env/agent/thirdparty_files/attrs/filters.py
+- ray/_private/runtime_env/agent/thirdparty_files/attrs/setters.py
+- ray/_private/runtime_env/agent/thirdparty_files/attrs/validators.py
+- ray/_private/thirdparty/pyamdsmi/pyamdsmi.py
+  - Copyright (c) 2023 Advanced Micro Devices, Inc.
+- ray/dashboard/client/build/speedscope-1.5.3/LICENSE
+  - Copyright (c) 2018 Jamie Wong
+- ray/dashboard/client/build/static/js/main.15e9dd9a.js.LICENSE.txt
+  - Copyright (c)  Facebook, Inc. and its affiliates.
+  - Copyright (c)  Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+  - Copyright (c)  OpenJS Foundation and other contributors <https://openjsf.org/>
+  - Copyright (c)  Remix Software Inc.
+- ray/data/_internal/datasource/tfrecords_datasink.py
+  - Copyright (c) 2020 Vahid Kazemi
+- ray/jars/META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.xml
+  - Copyright (c) 2004-2015 Paul R. Holser, Jr.  All rights reserved. Licensed under The MIT License. pholser@alumni.rice.edu</i>]]></bottom>
+- ray/jars/META-INF/maven/org.webjars/jquery/pom.xml
+- ray/jars/META-INF/thirdparty-LICENSE
+  - Copyright (c) 2020 Tim Buktu. 2-clause BSD License.
+  - Copyright (c) 2021 The fast_float authors
+  - Copyright (c) 2021 The fast_float authors. MIT License.
+  - Copyright (c) 2022 Tim Buktu
+- ray/rllib/env/wrappers/dm_control_wrapper.py
+  - Copyright (c) 2020 Denis Yarats
+--------------------------------------------------------------------------------
+
+* BSD-2-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/META-INF/thirdparty-LICENSE
+  - Copyright (c) 2020 Tim Buktu. 2-clause BSD License.
+  - Copyright (c) 2021 The fast_float authors
+  - Copyright (c) 2021 The fast_float authors. MIT License.
+  - Copyright (c) 2022 Tim Buktu
+--------------------------------------------------------------------------------
+
+* BSD-3-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- ray/_private/runtime_env/agent/thirdparty_files/idna-3.11.dist-info/licenses/LICENSE.md
+  - Copyright (c) 2013-2025 Kim Davies and contributors.
+- ray/_private/thirdparty/pynvml/pynvml.py
+  - Copyright (c) 2011-2025 NVIDIA Corporation.  All rights reserved.
+- ray/cloudpickle/cloudpickle.py
+  - Copyright (c) 2009 PiCloud, Inc. <https://web.archive.org/web/20140626004012/http://www.picloud.com/>`_.
+  - Copyright (c) 2012 Regents of the University of California.
+  - Copyright (c) 2012 now, CloudPickle developers and contributors.
+- ray/data/preprocessors/discretizer.py
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc.
+  - Copyright (c) 2011-2022 Open source contributors.
+- ray/jars/google/protobuf/any.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/api.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/descriptor.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/duration.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/empty.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/field_mask.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/source_context.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/struct.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/timestamp.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/type.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/jars/google/protobuf/wrappers.proto
+  - Copyright (c) 2008 Google Inc.  All rights reserved.
+- ray/serve/_private/thirdparty/get_asgi_route_name.py
+  - Copyright (c) 2012 the Sentry Team, see AUTHORS for more details
+  - Copyright (c) 2019 Elasticsearch BV
+- ray/thirdparty_files/colorama-0.4.6.dist-info/licenses/LICENSE.txt
+  - Copyright (c) 2010 Jonathan Hartley
+- ray/thirdparty_files/psutil-7.1.3.dist-info/LICENSE
+  - Copyright (c) 2009 Jay Loden, Dave Daeschler, Giampaolo Rodola
+- ray/thirdparty_files/psutil/__init__.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_common.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_psaix.py
+  - Copyright (c) 2009 Giampaolo Rodola'
+  - Copyright (c) 2017 Arnon Yaari
+- ray/thirdparty_files/psutil/_psbsd.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_pslinux.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_psosx.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_psposix.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_pssunos.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- ray/thirdparty_files/psutil/_pswindows.py
+  - Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+--------------------------------------------------------------------------------
+
+* Python-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- ray/_private/runtime_env/agent/thirdparty_files/aiohappyeyeballs-2.6.1.dist-info/LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- ray/_private/runtime_env/agent/thirdparty_files/typing_extensions-4.15.0.dist-info/licenses/LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+--------------------------------------------------------------------------------
+
+* 0BSD *
+--------------------------------------------------------------------------------
+File matches:
+- ray/_private/runtime_env/agent/thirdparty_files/aiohappyeyeballs-2.6.1.dist-info/LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- ray/_private/runtime_env/agent/thirdparty_files/typing_extensions-4.15.0.dist-info/licenses/LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+--------------------------------------------------------------------------------
+
+* GPL-2.0-with-classpath-exception *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/com/sun/xml/bind/api/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_de.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_es.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_fr.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_it.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_ja.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_ko.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_pt_BR.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_zh_CN.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_zh_TW.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/xmlschema/xmlschema-for-jaxb.rng
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/javax/xml/bind/helpers/Messages.properties
+  - Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/javax/xml/bind/Messages.properties
+  - Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/javax/xml/bind/util/Messages.properties
+  - Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/gfprobe-provider.xml
+  - Copyright (c) 2010-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/LICENSE.txt
+  - Copyright (c)  
+  - Copyright (c) 1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+- ray/jars/META-INF/maven/com.sun.istack/istack-commons-runtime/pom.xml
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.mail/mailapi/pom.xml
+  - Copyright (c) 1997-2018 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.xml.bind/jaxb-core/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.xml.bind/jaxb-impl/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/org.glassfish.jaxb/jaxb-core/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/org.glassfish.jaxb/jaxb-runtime/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/org.glassfish.jaxb/txw2/pom.xml
+  - Copyright (c) 2005-2017 Oracle and/or its affiliates. All rights reserved.
+--------------------------------------------------------------------------------
+
+* CDDL-1.0 *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/com/sun/xml/bind/v2/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/LICENSE.txt
+  - Copyright (c)  
+  - Copyright (c) 1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+--------------------------------------------------------------------------------
+
+* CDDL-1.1 *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/com/sun/xml/bind/api/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/api/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/marshaller/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_de.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_es.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_fr.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_it.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_ja.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_ko.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_pt_BR.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_zh_CN.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages_zh_TW.properties
+  - Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/unmarshaller/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/annotation/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/model/impl/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/property/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/reflect/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/runtime/unmarshaller/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_de.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_es.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_fr.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_it.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_ja.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_ko.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_pt_BR.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_zh_CN.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages_zh_TW.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/Messages.properties
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/com/sun/xml/bind/v2/schemagen/xmlschema/xmlschema-for-jaxb.rng
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/javax/xml/bind/helpers/Messages.properties
+  - Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/javax/xml/bind/Messages.properties
+  - Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/javax/xml/bind/util/Messages.properties
+  - Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/gfprobe-provider.xml
+  - Copyright (c) 2010-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.istack/istack-commons-runtime/pom.xml
+  - Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.mail/mailapi/pom.xml
+  - Copyright (c) 1997-2018 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.xml.bind/jaxb-core/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/com.sun.xml.bind/jaxb-impl/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/org.glassfish.jaxb/jaxb-core/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/org.glassfish.jaxb/jaxb-runtime/pom.xml
+  - Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- ray/jars/META-INF/maven/org.glassfish.jaxb/txw2/pom.xml
+  - Copyright (c) 2005-2017 Oracle and/or its affiliates. All rights reserved.
+--------------------------------------------------------------------------------
+
+* MPL-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- ray/jars/LICENSE.txt
+- ray/jars/org/mozilla/javascript/commonjs/module/package.html
+- ray/jars/org/mozilla/javascript/commonjs/module/provider/package.html
+- ray/jars/org/mozilla/javascript/resources/Messages_fr.properties
+- ray/jars/org/mozilla/javascript/resources/Messages.properties
+- ray/jars/org/mozilla/javascript/tools/debugger/build.xml
+- ray/jars/org/mozilla/javascript/tools/debugger/test.js
+- ray/jars/org/mozilla/javascript/tools/idswitch/README
+- ray/jars/org/mozilla/javascript/tools/resources/Messages.properties
+--------------------------------------------------------------------------------
+
+* Copyrights *
+Apache-2.0
+- Copyright (c)  NVIDIA Corporation 2023
+LGPL-2.1-only
+- Copyright (c) 1991, 1999 Free Software Foundation, Inc.
+- Copyright (c)  the
+LGPL-3.0-only
+- Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+- Copyright (c) 2014 Francis Galiegue (fgaliegue@gmail.com)
+MIT
+- Copyright (c)  Fedor Indutny, 2018.
+- Copyright (c) 2004-2015 Paul R. Holser, Jr.  All rights reserved. Licensed under The MIT License. pholser@alumni.rice.edu</i>]]></bottom>
+- Copyright (c) 2023 Advanced Micro Devices, Inc.
+- Copyright (c) 2020 Vahid Kazemi
+- Copyright (c) 2021 The fast_float authors. MIT License.
+- Copyright (c) 2021 The fast_float authors
+- Copyright (c) 2020 Tim Buktu. 2-clause BSD License.
+- Copyright (c) 2022 Tim Buktu
+- Copyright (c) 2018 Jamie Wong
+- Copyright (c) 2020 Denis Yarats
+- Copyright (c)  OpenJS Foundation and other contributors <https://openjsf.org/>
+- Copyright (c)  Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+- Copyright (c)  Facebook, Inc. and its affiliates.
+- Copyright (c)  Remix Software Inc.
+- Copyright (c) 2015 Hynek Schlawack and the attrs contributors
+BSD-2-Clause
+- Copyright (c) 2021 The fast_float authors. MIT License.
+- Copyright (c) 2021 The fast_float authors
+- Copyright (c) 2020 Tim Buktu. 2-clause BSD License.
+- Copyright (c) 2022 Tim Buktu
+BSD-3-Clause
+- Copyright (c) 2013-2025 Kim Davies and contributors.
+- Copyright (c) 2008 Google Inc.  All rights reserved.
+- Copyright (c) 2012 the Sentry Team, see AUTHORS for more details
+- Copyright (c) 2019 Elasticsearch BV
+- Copyright (c) 2009 Giampaolo Rodola'
+- Copyright (c) 2017 Arnon Yaari
+- Copyright (c) 2009 Giampaolo Rodola'. All rights reserved.
+- Copyright (c) 2011-2025 NVIDIA Corporation.  All rights reserved.
+- Copyright (c) 2010 Jonathan Hartley
+- Copyright (c) 2012 now, CloudPickle developers and contributors.
+- Copyright (c) 2012 Regents of the University of California.
+- Copyright (c) 2009 PiCloud, Inc. <https://web.archive.org/web/20140626004012/http://www.picloud.com/>`_.
+- Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc.
+- Copyright (c) 2011-2022 Open source contributors.
+- Copyright (c) 2009 Jay Loden, Dave Daeschler, Giampaolo Rodola
+Python-2.0
+- Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- Copyright (c)  i.e., "Copyright (c)
+- Copyright (c)  
+- Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+0BSD
+- Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- Copyright (c)  i.e., "Copyright (c)
+- Copyright (c)  
+- Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+GPL-2.0-with-classpath-exception
+- Copyright (c) 1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+- Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c)  
+- Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2005-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 1997-2018 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2010-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+CDDL-1.0
+- Copyright (c) 1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+- Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c)  
+CDDL-1.1
+- Copyright (c) 2010-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2003-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2005-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2014-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 2013-2017 Oracle and/or its affiliates. All rights reserved.
+- Copyright (c) 1997-2018 Oracle and/or its affiliates. All rights reserved.
+
+* Package Info *
+
+Authors: ray-dev@googlegroups.com
+Package Manager: Pip
+Project URL: https://github.com/ray-project/ray
+Package Download URL: https://files.pythonhosted.org/packages/2f/99/21986c7f8135dafbf7c49229c52faaa9d2d365db7d86fffe978dde8ee967/ray-2.53.0-cp310-cp310-macosx_12_0_arm64.whl
+Dependency Path: ray
+* Notice File(s) *
+ray/jars/META-INF/NOTICE
+
+Apache Log4j API
+Copyright 1999-1969 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+ray/jars/META-INF/NOTICE.txt
+=============================================================================
+= NOTICE file corresponding to section 4d of the Apache License Version 2.0 =
+=============================================================================
+This product includes software developed by
+Joda.org (https://www.joda.org/).
+
+ray/_private/runtime_env/agent/thirdparty_files/propcache-0.4.1.dist-info/licenses/NOTICE
+   Copyright 2016-2021, Andrew Svetlov and aio-libs team
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+ray/_private/runtime_env/agent/thirdparty_files/yarl-1.22.0.dist-info/licenses/NOTICE
+   Copyright 2016-2021, Andrew Svetlov and aio-libs team
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+--------------------------------------------------------------------------------
+Package Title: starlette (0.36.0)
+
+Package Locator: pip+starlette$0.36.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+The little ASGI library that shines.
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE.md
+  - Copyright (c) 2018 Encode OSS Ltd](https://www.encode.io/).
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2018 Encode OSS Ltd](https://www.encode.io/).
+
+* Package Info *
+
+Authors: Tom Christie <tom@tomchristie.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/starlette/
+Package Download URL: https://files.pythonhosted.org/packages/41/5e/a8b2943d7ba60e722cf97f6b5c3ea1760fa2ffb53bb3a2e6009cc6977b6d/starlette-0.36.0.tar.gz
+Dependency Path: starlette
+
+--------------------------------------------------------------------------------
+Package Title: uvicorn (0.27.0)
+
+Package Locator: pip+uvicorn$0.27.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+The lightning-fast ASGI server.
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE.md
+  - Copyright (c) 2017 present, [Encode OSS Ltd](https://www.encode.io/).
+- uvicorn/_types.py
+  - Copyright (c)  Django Software Foundation and individual contributors.
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2017 present, [Encode OSS Ltd](https://www.encode.io/).
+- Copyright (c)  Django Software Foundation and individual contributors.
+
+* Package Info *
+
+Authors: Tom Christie <tom@tomchristie.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/uvicorn/
+Package Download URL: https://files.pythonhosted.org/packages/52/75/9cf554ed256d8bcdf3a9bb831b599c4e48e4e5993931fb512f75e529ece4/uvicorn-0.27.0.tar.gz
+Dependency Path: uvicorn
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Report Generated by FOSSA on 2026-10-7
