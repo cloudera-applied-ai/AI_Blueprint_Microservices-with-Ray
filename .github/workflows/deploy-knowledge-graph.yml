@@ -1,12 +1,16 @@
 name: Deploy Knowledge Graph Dashboard
 
 # Deploys the pre-built dashboard + knowledge-graph.json to GitHub Pages.
+#
+# One-time setup: Settings → Pages → Build and deployment → Source → GitHub Actions.
+# See docs/GITHUB_PAGES.md if configure-pages fails with "Get Pages site" Not Found.
+#
 # The dashboard bundle (.ua/dashboard-dist/) is built locally via:
 #   cd ~/.claude/plugins/cache/understand-anything/.../packages/dashboard
 #   VITE_DEMO_MODE=true \
-#   VITE_GRAPH_URL="https://ferdinandzhong.github.io/ray-serve-cai/knowledge-graph.json" \
+#   VITE_GRAPH_URL="https://cloudera-applied-ai.github.io/AI_Blueprint_Microservices-with-Ray/knowledge-graph.json" \
 #   pnpm exec vite build --config vite.config.demo.ts \
-#     --base "/ray-serve-cai/" --outDir <repo>/.ua/dashboard-dist --emptyOutDir
+#     --base "/AI_Blueprint_Microservices-with-Ray/" --outDir <repo>/.ua/dashboard-dist --emptyOutDir
 # Then commit both .ua/dashboard-dist/ and .ua/knowledge-graph.json.
 # This workflow just deploys whatever is committed — no build step on CI.
 
@@ -40,6 +44,17 @@ jobs:
         run: |
           cp .ua/knowledge-graph.json .ua/dashboard-dist/knowledge-graph.json
           touch .ua/dashboard-dist/.nojekyll
+
+      - name: Require GitHub Pages (one-time admin setup)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh api "repos/${GITHUB_REPOSITORY}/pages" --silent 2>/dev/null; then
+            echo "::error::GitHub Pages is not enabled for this repository."
+            echo "Enable it once: Settings → Pages → Build and deployment → Source → GitHub Actions"
+            echo "Details: docs/GITHUB_PAGES.md"
+            exit 1
+          fi
 
       - uses: actions/configure-pages@v5
 

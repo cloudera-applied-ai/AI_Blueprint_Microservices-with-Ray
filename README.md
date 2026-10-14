@@ -802,6 +802,7 @@ the `launch_ray_cluster` job) and confirm all workers report alive in
 - [Isolated Environments Design](docs/ISOLATED_ENV_DESIGN.md)
 - [CML Deployment Guide](cai_integration/README.md)
 - [Roadmap](docs/ROADMAP.md) · [Docs Index](docs/INDEX.md)
+- [GitHub Pages (Knowledge Graph dashboard)](docs/GITHUB_PAGES.md)
 
 ## License
 
