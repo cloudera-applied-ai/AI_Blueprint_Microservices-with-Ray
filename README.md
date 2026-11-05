@@ -111,8 +111,7 @@ The fastest way to see this running is a one-click AMP import:
    HuggingFace model ID, then query it with the OpenAI client
    (see [Quick start](#quick-start)).
 
-> 🎬 A recorded Reprise walkthrough of this flow is planned — the link will be
-> added here once the AMP import is validated on a live workbench.
+> 🎬 Check out the recorded Reprise: https://app.getreprise.com/present/dnbbRqn
 
 ## Target Audience
 
